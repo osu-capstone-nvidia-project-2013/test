@@ -1,4 +1,11 @@
 test
 ====
 
-a test repository for git learing &amp; experimentation
+A test repository for git learing &amp; experimentation.
+
+who tested this?
+=============
+
+Roger tested this.
+  
+
