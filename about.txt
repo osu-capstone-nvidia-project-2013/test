@@ -1,4 +1,4 @@
 A simple test of git.
 
-My name is Roger Allen, I enjoy kayaking.
+My name is Roger Allen, I enjoy kayaking.  I also enjoy hiking.
 
