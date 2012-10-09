@@ -1,0 +1,115 @@
+Background:
+
+Version control is at the heart of any software project development
+and git is the de-facto standard of the day.  With github, you can use
+a process very similar to what businesses use internally to develop
+software.  In addition, we can all see and test the progress of your
+team over time.
+
+If you have never used version control, there will definitely be a
+learning process.  Take some time to get used to git by reading the
+documents, online tutorials and the github help pages.  Also, feel
+free to ask us questions.
+
+Here is a git tutorial to look over and refer back to in the future.
+It is the top google hit for "git tutorial":
+http://www.vogella.com/articles/Git/article.html
+
+Lastly, try using git (even without github or remote repositories) in
+all of your software development.  It is wonderful to be able to
+experiment with new code without worrying about messing up your code.
+You can always get back to the last checkpoint.  "git init" and you're
+all ready.
+
+Setup Steps:
+
+1. Sign up and setup with Github
+
+https://github.com/
+
+Read over (but note what I say in the next 2 points)
+
+https://help.github.com/articles/set-up-git
+
+I suggest you stick with the terminal version of git and DON'T
+follow their advice about "forget the terminal, install our app".
+This way, other online help/tutorials will still apply.
+
+http://git-scm.com/downloads
+
+2. Send Roger email with your github userid.  I will add you to this
+organization: https://github.com/osu-capstone-nvidia-project-2013 so
+that you can commit changes to the repositories.
+
+3. Do some basic things with github.
+
+a) Checkout the test repository at
+https://github.com/osu-capstone-nvidia-project-2013/test
+
+git clone git@github.com:osu-capstone-nvidia-project-2013/test.git
+-or-
+git clone https://github.com/osu-capstone-nvidia-project-2013/test.git
+
+b) Edit the file "about.txt" in that directory and add a sentence
+about yourself.  Something like:
+
+"My name is X and I like to do Y."
+
+c) Check this change into your own local copy of the repository.
+
+git add about.txt
+git commit
+
+d) Push this change to the github tree
+
+git push origin master
+
+Within seconds you should see the change at
+https://github.com/osu-capstone-nvidia-project-2013/test?
+
+4. After a few others have committed, do some work in a branch.
+Branches are a safe place to development without affecting the main
+"master" branch.  Keep the master branch working at all times!  When
+your work is ready, then check it into the master branch.
+
+a) Create your branch
+
+git branch yourname_yourbranchname
+
+b) Make this branch active
+
+git checkout yourname_yourbranchname
+
+c) Edit the about.txt file and change your line to:
+
+"My name is X and I like to do Y.  I also like to do Z."
+
+d) Check that change into your branch.
+
+git commit -a -m "updated my line"
+
+d) Merge this into the master branch.
+
+git checkout master
+
+# see if anything on the mainline changed--conflicts could have occurred.
+git fetch origin master
+
+git merge yourname_yourbranchname
+
+git push origin master
+
+Okay, this should be enough to get you started and show you the basics
+of doing development in a git repository.  Feel free to play around &
+experiment in this test repository.
+
+
+
+
+
+
+
+
+
+
+
