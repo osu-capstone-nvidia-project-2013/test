@@ -1,0 +1,10 @@
+One way to do development (this is under discussion)
+
+See https://help.github.com/articles/fork-a-repo
+and https://help.github.com/articles/using-pull-requests
+
+1. Each user forks the repo (via gui)
+2. Does development in their own repo/branch.
+3. Pushes code to the main tree via pull request.
+4. Reviews can happen during pull-request processing.
+
