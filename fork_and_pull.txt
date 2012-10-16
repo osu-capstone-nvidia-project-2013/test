@@ -3,8 +3,24 @@ One way to do development (this is under discussion)
 See https://help.github.com/articles/fork-a-repo
 and https://help.github.com/articles/using-pull-requests
 
-1. Each user forks the repo (via gui)
+1. Each user forks the repo
 2. Does development in their own repo/branch.
 3. Pushes code to the main tree via pull request.
 4. Reviews can happen during pull-request processing.
 
+Here's what I just did...
+
+Forked via gui
+$ git clone git@github.com:rogerallen/test.git
+$ cd test
+$ git remote add upstream git@github.com:osu-capstone-nvidia-project-2013/test.git
+
+$ git fetch upstream
+$ git merge origin master
+
+$ git branch rallen_dev
+$ git checkout rallen_dev
+
+$ git add <files>
+$ git commit -m "message"
+$ git push origin master
