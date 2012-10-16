@@ -24,3 +24,5 @@ $ git checkout rallen_dev
 $ git add <files>
 $ git commit -m "message"
 $ git push origin master
+
+Then, I'll do a pull request on github
