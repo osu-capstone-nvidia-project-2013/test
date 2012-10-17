@@ -2,7 +2,7 @@ A simple test of git.
 
 My name is Roger Allen, I enjoy kayaking.  I also enjoy hiking.
 
-My name is Zander Clucas, I enjoy watching movies, playing video games and listening to music.
+My name is Zander Clucas, I enjoy watching movies. I also enjoy playing video games.
 
 My name is Eric Happe, I enjoy hanging out with my kids. I also enjoy playing video games.
 
