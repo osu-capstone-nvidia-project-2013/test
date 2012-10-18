@@ -1,0 +1,27 @@
+Expectations:
+* Changelist Reviews
+See fork_and_pull.txt for instructions. Basically everyone works in their own 
+branch, and creates pull requests that pull changes from your dev branch into the 
+master branch. These pull requests are assigned to another member of your team.  
+This person is responsible for reviewing the changes, and executing the pull to 
+merge the changes.  There should always be at least one reviewer.  Reviewer
+is just as responsible for making sure the change works as intended, so be careful.
+
+* Branch Health
+Periodically, we’ll be checking out the master branch and verifying it builds.  
+*No* changes should be checked into the master branch which breaks the build.  
+If they are, they should be fixed or reverted within a day.  Features can be in 
+development in the master branch at different stages, but we should always be 
+able to run the program and see at least a direct-x window.  Your dev branches 
+can be in any state, but I encourage you to always leave the branch buildable.
+
+* Weekly individual progress reports
+Due Thursday @ noon.  We’ll discuss the contents @ our weekly meeting. The 
+progress reports should have “work done, work todo, and current blockers” 
+(problems you don’t know the solution to, or issues that are impeding progress).
+
+* Coding standards
+Choose spacing, brackets, capitalization, prefixes etc and stay consistent.  
+See http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml for a good standard.
+You don't need to follow all the standards, choose a few which apply and stick with it.
+Catch deviations during the review process, it's up to everyone to maintain the standard.
