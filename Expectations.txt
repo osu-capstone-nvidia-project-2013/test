@@ -25,3 +25,12 @@ Choose spacing, brackets, capitalization, prefixes etc and stay consistent.
 See http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml for a good standard.
 You don't need to follow all the standards, choose a few which apply and stick with it.
 Catch deviations during the review process, it's up to everyone to maintain the standard.
+
+* Branch layout
+There will be a single master branch. Each developer will fork off a copy for their
+own personal use.  For milestone 1, the developer branches will be used to determine
+whether the milestone has been hit.  The point is for each developer to do milestone 1
+on their own, so they understand the basics of transformations and shading.  After
+milestone 1, the single master branch will be used to determine success. The point is
+for all developers to use a shared code base, and do iterative development in their own
+branches before pulling into the master branch via the review process.
