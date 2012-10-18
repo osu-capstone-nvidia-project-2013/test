@@ -1,10 +1,12 @@
-One way to do development (this is under discussion)
+One way to do development
 
 See https://help.github.com/articles/fork-a-repo
 and https://help.github.com/articles/using-pull-requests
 
 1. Each user forks the repo
 2. Does development in their own repo/branch.
+   a. it isn't strictly necessary to do development in another branch.  However, it would allow you 
+      to be able to use this personal repo to switch to the same state as the main repo.  
 3. Pushes code to the main tree via pull request.
 4. Reviews can happen during pull-request processing.
 
